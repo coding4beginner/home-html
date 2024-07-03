@@ -1,0 +1,8 @@
+.example {
+    text-decoration: none;
+}
+
+.example:after {
+    content: '\A';
+    white-space: pre;
+}
